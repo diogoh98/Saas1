@@ -53,7 +53,7 @@ export default function NovoOrcamentoPage() {
             // Em uma aplicação real, a API poderia retornar os itens ou nós buscaríamos eles
             // Vamos simular a geração para o PDF baseado numa query logo a seguir se usássemos RPC, 
             // mas aqui apenas exibiremos a UI que copiou. O ideal era o PDF ser gerado do JSON retornado.
-            // Para o escopo, vamos alertar.
+            // Para o escopo, vamos alertar oi.
             alert("Orçamento gerado pela IA com Sucesso!");
         }
         setLoading(false);
