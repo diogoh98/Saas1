@@ -6,7 +6,7 @@ import { redirect } from "next/navigation";
 
 // Initialize Supabase client
 const supabase = createClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL || "mock-url",
+    process.env.NEXT_PUBLIC_SUPABASE_URL || "https://mock.supabase.co",
     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "mock-key",
     {
         auth: {
